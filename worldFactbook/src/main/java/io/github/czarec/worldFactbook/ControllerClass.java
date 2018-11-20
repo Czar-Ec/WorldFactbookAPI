@@ -4,8 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value="/")
+@RequestMapping(value="/factbook")
 class ControllerClass {
+	
+	
 
 	@RequestMapping("/status")
 	public String index() {
