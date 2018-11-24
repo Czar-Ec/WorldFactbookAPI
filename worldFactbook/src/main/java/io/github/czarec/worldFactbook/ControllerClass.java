@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/factbook")
 class ControllerClass {
 	
-	
+	private static FactbookClass factbook;
 
 	@RequestMapping("/status")
 	public String index() {
