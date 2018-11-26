@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value="/factbook")
 class ControllerClass {
 
-
-
-    @RequestMapping("/status")
-    public String index() {
-        return "Online";
-    }
+  @RequestMapping("/status")
+  public String index() {
+    return "Online";
+  }
 }
